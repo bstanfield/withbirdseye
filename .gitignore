@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules/
+
+# Environment configuration files
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Compiler and bundler output
+dist/
+build/
+
+# macOS folder attributes
+.DS_Store
+
+# Testing and coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Caching directories
+.cache/
