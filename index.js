@@ -4,8 +4,8 @@ const port = 4444;
 
 const app = express();
 
-const wren = "https://wren.co/birderseye";
-const ref = "?ref=birderseye.com";
+const wren = "https://wren.co/birdseye";
+const ref = "?ref=withbirdseye.com";
 
 app.get("/", async (req, res) => {
   return res.redirect(`${wren}${ref}`);
